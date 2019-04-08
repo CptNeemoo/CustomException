@@ -8,6 +8,6 @@ class MainTest {
 
     @Test
     void main() {
-        Assertions.assertThrows(DivisionByZeroException.class, () -> Main.main(null));
+        Assertions.assertThrows(DivisionByZeroException.class, () -> Main.divide(1,0));
     }
 }
